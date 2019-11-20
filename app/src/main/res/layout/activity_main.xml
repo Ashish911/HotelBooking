@@ -27,13 +27,14 @@
         android:textSize="20dp"
         android:layout_margin="5dp"></TextView>
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:layout_margin="5dp"
         android:hint="Enter Date"
-        android:id="@+id/tvCheckIn"></TextView>
+        android:inputType="date"
+        android:id="@+id/tvCheckIn"></EditText>
 
     <TextView
         android:layout_width="match_parent"
@@ -42,13 +43,14 @@
         android:textSize="20dp"
         android:layout_margin="5dp"></TextView>
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:hint="Enter Date"
         android:layout_margin="5dp"
-        android:id="@+id/tvCheckOut"></TextView>
+        android:inputType="date"
+        android:id="@+id/tvCheckOut"></EditText>
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -91,6 +93,7 @@
             android:layout_rowWeight="1"
             android:hint="0"
             android:textSize="20dp"
+            android:inputType="number"
             android:id="@+id/etAdult"></EditText>
 
         <EditText
@@ -100,6 +103,7 @@
             android:layout_rowWeight="1"
             android:hint="0"
             android:textSize="20dp"
+            android:inputType="number"
             android:id="@+id/etChildren"></EditText>
 
         <EditText
@@ -109,6 +113,7 @@
             android:layout_rowWeight="1"
             android:hint="0"
             android:textSize="20dp"
+            android:inputType="number"
             android:id="@+id/etRoom"></EditText>
 
     </GridLayout>
