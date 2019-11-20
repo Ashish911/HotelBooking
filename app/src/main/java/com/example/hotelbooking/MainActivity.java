@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 String RoomType = spinRoom.getSelectedItem().toString();
-                String Place =spinLocation.getSelectedItem().toString();
+                String Place = spinLocation.getSelectedItem().toString();
 
                 if (Place == "Select Location"){
                     Toast.makeText(MainActivity.this, "Please select your Location", Toast.LENGTH_SHORT).show();
@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
                 else if (d2 == true)
                 {
                     tvCheckOut.setText(date);
-                    d2 = true;
+                    d2 = false;
                 }
             }
         },year,month,day);
